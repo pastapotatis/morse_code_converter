@@ -1,1 +1,1 @@
-convering a soundfile morse code to text.
+converting a soundfile morse code to text.
