@@ -13,6 +13,8 @@ Formats like MP3, FLAC, WAV, GSM, AAC, OGG, etc. all contain:
     metadata
     block structures
 
+This script works on many, but far from all sound-files. Since sounds are complex and many files out there are not pure morse code, this could fail.
+This script should work in CTFs.
 
 ### This is more informational. This is done automatically with the new update.
 A Morse decoder needs raw amplitude values with uniform sample spacing, so the audio must be converted to RAW PCM first, before using morse_code_converter.py
