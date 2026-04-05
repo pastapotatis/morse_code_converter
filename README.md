@@ -13,6 +13,8 @@ Formats like MP3, FLAC, WAV, GSM, AAC, OGG, etc. all contain:
     metadata
     block structures
 
+
+### This is more informational. This is done automatically with the new update.
 A Morse decoder needs raw amplitude values with uniform sample spacing, so the audio must be converted to RAW PCM first, before using morse_code_converter.py
 
 Below are examples of how to convert common audio formats to RAW PCM using ffmpeg:
